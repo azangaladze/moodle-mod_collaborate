@@ -43,6 +43,8 @@ $string['collaborate'] = 'collaborate';
 $string['pluginadministration'] = 'collaborate administration';
 $string['pluginname'] = 'collaborate';
 $string['nocollaborates'] = 'No instances';
+$string['footer'] = 'I AM A GREAT DEVELOPER';
 
 // Mod form specific collaborate settings.
 $string['title'] = 'Activity Title: ';
+$string['title_help'] = 'Please enter a title for collaborate main page';
