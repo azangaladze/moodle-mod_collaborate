@@ -193,3 +193,16 @@ What is in a collaborate stdClass Object
     [grade] => 100
 )
 
+What is in a collaborate stdClass Object
+(
+    [id] => 1
+    [course] => 2
+    [name] => Testing Collaborate
+    [intro] => <p dir="ltr" style="text-align: left;">Hello world</p><p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/-4cD6ouV.jpg" alt="" role="presentation"><br></p>
+    [introformat] => 1
+    [title] => Meow
+    [timecreated] => 1620239638
+    [timemodified] => 1620738536
+    [grade] => 100
+)
+
