@@ -67,7 +67,7 @@ $event->trigger();
 if (!$collaborate->intro) {
     $collaborate->intro = '';
 }
-mod_collaborate\local\debugging::logit("What is in a collaborate ", $collaborate);
+\mod_collaborate\local\debugging::logit("What is in a collaborate ", $collaborate);
 // Start output to browser.
 echo $OUTPUT->header();
 

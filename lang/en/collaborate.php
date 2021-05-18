@@ -49,3 +49,7 @@ $string['footer'] = 'I AM A GREAT DEVELOPER';
 $string['title'] = 'Activity Title: ';
 $string['title_help'] = 'Please enter a title for collaborate main page';
 $string['pageviewed'] = 'Page Viewed';
+
+// Mod form specific collaborate settings.
+$string['title'] = 'Activity Title: ';
+$string['texteditor'] = 'Instructions {$a}';
