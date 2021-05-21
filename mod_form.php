@@ -25,11 +25,12 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @see https://github.com/moodlehq/moodle-mod_collaborate
  * @see https://github.com/justinhunt/moodle-mod_collaborate */
-
+ 
+use \mod_collaborate\local\collaborate_editor;
 defined('MOODLE_INTERNAL') || die();
 
 require_once($CFG->dirroot.'/course/moodleform_mod.php');
-use \mod_collaborate\local\collaborate_editor;
+
 /**
  * Module instance settings form
  *

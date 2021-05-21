@@ -16,9 +16,9 @@
 }}
 
 {{!
-    @template mod_collaborate/view
+    @template mod_collaborate/showpage
 
-    Moodle renders a simple view page
+    Moodle renders a simple showpage page
 
     Classes required for JS:
     * none
@@ -36,15 +36,17 @@
          "body": "<p>My html body</p>"
         }
 }}
-<div class="card">
+<div class = "container">
+  <div class="card">
     <div class="card-body">
-        <h2 class="card-title">{{title}}</h2>
-        {{{body}}}
+      <h2 class="card-title">{{heading}}</h2>
+      <h3>{{user}}</h3>
+      {{{body}}}
     </div>
-    <div class = "container">
-     <a href = "{{url_a}}" class="btn btn-primary">{{# str }} studenta, mod_collaborate {{/ str }}</a>
-     <a href = "{{url_b}}" class="btn btn-primary">{{# str }} studentb, mod_collaborate {{/ str }}</a>
-     <h1>{{{footer}}}</h1>
-	</div>
-			
+  </div>
+  <p><br>
+    <a href = "{{url_view}}" class="btn btn-primary">
+       {{# str }} returnview, mod_collaborate {{/ str }}
+    </a>
+  </p>
 </div>
