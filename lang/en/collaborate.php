@@ -61,3 +61,15 @@ $string['studentb'] = 'Partner B';
 //Showpage.
 $string['user'] = 'User: {$a}';
 $string['returnview'] = 'Return to view';
+
+// Settings strings.
+$string['enablereports'] = 'Enable reports';
+$string['enablereports_desc'] = 'Click to enable reports';
+
+// Permissions strings.
+$string['collaborate:addinstance'] = 'Add a new collaborate';
+$string['collaborate:view'] = 'View collaborate';
+
+// Tabs.
+$string['viewtab'] = 'View';
+$string['reportstab'] = 'Reports';
