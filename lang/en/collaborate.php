@@ -73,3 +73,9 @@ $string['collaborate:view'] = 'View collaborate';
 // Tabs.
 $string['viewtab'] = 'View';
 $string['reportstab'] = 'Reports';
+
+// Submissions form.
+$string['submission'] = 'Your submission';
+$string['submissionsave'] = 'Save submission';
+
+$string['submissionupdated'] = 'Submission updated';
