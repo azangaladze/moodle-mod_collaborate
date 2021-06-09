@@ -24,6 +24,7 @@
  * @see https://github.com/justinhunt/moodle-mod_collaborate */
 
 use mod_collaborate\output\reports;
+use \mod_collaborate\local\submissions;
 use core\output\notification;
 require_once('../../config.php');
 

@@ -81,3 +81,13 @@ $string['submissionupdated'] = 'Submission updated';
 
 $string['collaborate:viewreportstab'] = 'View reports tab';
 $string['id'] = 'ID';
+$string['collaborate:gradesubmission'] = 'Grade a submission';
+
+// Grading form.
+$string['grade'] = 'Grade';
+$string['allocate_grade'] = 'Allocate a grade';
+$string['gradingheader'] = 'Grade a submission';
+$string['currentgrade'] = 'Current grade: ';
+$string['user'] = 'User: ';
+$string['grade_saved'] = 'Grade saved';
+$string['submissiongraded'] = 'Submission graded';
