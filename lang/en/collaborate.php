@@ -77,5 +77,7 @@ $string['reportstab'] = 'Reports';
 // Submissions form.
 $string['submission'] = 'Your submission';
 $string['submissionsave'] = 'Save submission';
-
 $string['submissionupdated'] = 'Submission updated';
+
+$string['collaborate:viewreportstab'] = 'View reports tab';
+$string['id'] = 'ID';
