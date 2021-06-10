@@ -57,7 +57,7 @@ $PAGE->set_heading(format_string($course->fullname));
 $submission = submissions::get_submission_to_grade($collaborate, $sid);
 
 // Instantiate the form and set the return url.
-$form = new grading_form(null, ['cid' => $cid, 'sid' => $sid]);
+$form = new grading_form(null, ['cid' => $cid, 'sid' => $sid, 'maxgrade' => $collaborate->grade]);
 $reportsurl = new moodle_url('/mod/collaborate/reports.php', ['cid' => $cid]);
 
 // Check if cancelled.
@@ -65,11 +65,16 @@ if ($form->is_cancelled()) {
     redirect($reportsurl, get_string('cancelled'), 2, notification::NOTIFY_INFO);
 }
 
-// Do we have any data - save it and notify the user.
+
 if ($data = $form->get_data()) {
-    // Save the data here.
+    // Set any existing grade to the form.
+    $form->set_data($data);
+    // Update the submission data.
     submissions::update_grade($sid, $data->grade);
-    redirect ($reportsurl, get_string('submissiongraded', 'mod_collaborate'), 2, notification::NOTIFY_SUCCESS);
+    // Update the gradebook.
+    collaborate_update_grades($collaborate);
+    redirect($reportsurl, get_string('grade_saved', 'mod_collaborate'), 2,
+            notification::NOTIFY_SUCCESS);
 }
 
 if ($data) {
