@@ -95,3 +95,9 @@ $string['submissiongraded'] = 'Submission graded';
 // Export.
 $string['collaborate:exportsubmissions'] = 'Export a submission';
 $string['exportlink'] = 'Export submissions';
+
+// Namechanger.
+$string['namechange'] = 'Change name';
+
+// Tasks.
+$string['exportall'] = 'Export all';
