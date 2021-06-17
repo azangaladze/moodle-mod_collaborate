@@ -91,3 +91,7 @@ $string['currentgrade'] = 'Current grade: ';
 $string['user'] = 'User: ';
 $string['grade_saved'] = 'Grade saved';
 $string['submissiongraded'] = 'Submission graded';
+
+// Export.
+$string['collaborate:exportsubmissions'] = 'Export a submission';
+$string['exportlink'] = 'Export submissions';

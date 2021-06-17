@@ -1185,3 +1185,37 @@ What is in a collaborate stdClass Object
     [grade] => 98
 )
 
+What is in a collaborate stdClass Object
+(
+    [id] => 1
+    [course] => 2
+    [name] => Testing
+    [intro] => <p dir="ltr" style="text-align: left;">Some random text goes here</p><p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/ducks_two.jpg" alt="" width="200" height="143" role="presentation" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [introformat] => 1
+    [title] => Testing Collaborate plugin
+    [instructionsa] => <p dir="ltr" style="text-align: left;">some texttttt</p><p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/images.png" alt="tdghjy" width="219" height="230" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [instructionsaformat] => 1
+    [instructionsb] => 
+    [instructionsbformat] => 1
+    [timecreated] => 1621326612
+    [timemodified] => 1623313017
+    [grade] => 98
+)
+
+What is in a collaborate stdClass Object
+(
+    [id] => 1
+    [course] => 2
+    [name] => Testing
+    [intro] => <p dir="ltr" style="text-align: left;">Some random text goes here</p><p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/ducks_two.jpg" alt="" width="200" height="143" role="presentation" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [introformat] => 1
+    [title] => Testing Collaborate plugin
+    [instructionsa] => <p dir="ltr" style="text-align: left;">some texttttt</p><p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/images.png" alt="tdghjy" width="219" height="230" class="img-responsive atto_image_button_text-bottom"><br></p>
+    [instructionsaformat] => 1
+    [instructionsb] => 
+    [instructionsbformat] => 1
+    [timecreated] => 1621326612
+    [timemodified] => 1623313017
+    [grade] => 98
+)
+
