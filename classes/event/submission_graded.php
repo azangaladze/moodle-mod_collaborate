@@ -15,26 +15,23 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Simple debugging class
  *
  * @package    mod_collaborate
  * @copyright  2019 Richard Jones richardnz@outlook.com
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 namespace mod_collaborate\event;
-
 defined('MOODLE_INTERNAL') || die();
 
-class page_viewed extends \core\event\base {
+class submission_graded extends \core\event\base {
     protected function init() {
-        $this->data['crud'] = 'r';
+        $this->data['objecttable'] = 'collaborate_submissions';
+        $this->data['crud'] = 'u';
         $this->data['edulevel'] = self::LEVEL_PARTICIPATING;
-        $this->data['objecttable'] = 'collaborate';
     }
 
     public static function get_name() {
-        return get_string('pageviewed', 'mod_collaborate');
+        return get_string('submission_graded', 'mod_collaborate');
     }
     /**
      * Returns non-localised event description with id's for admin use only.
@@ -43,9 +40,8 @@ class page_viewed extends \core\event\base {
      */
     public function get_description() {
         return "The user with id '$this->userid' has
-                viewed a page with the id '$this->objectid'
+                made a submission with the id '$this->objectid'
                 in the Collaborate activity with course
                 module id '$this->contextinstanceid'.";
     }
-
 }

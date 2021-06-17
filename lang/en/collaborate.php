@@ -101,3 +101,7 @@ $string['namechange'] = 'Change name';
 
 // Tasks.
 $string['exportall'] = 'Export all';
+
+// Events.
+$string['submission_submitted'] = 'Submission submitted';
+$string['submission_graded'] = 'Submission Graded';
